@@ -4,16 +4,17 @@
 
 function init_header() {
     cat <<EOF
-###########
-# GitDumper is part of https://github.com/internetwache/GitTools
-#
-# Developed and maintained by @gehaxelt from @internetwache
-#
-# Use at your own risk. Usage might be illegal in certain circumstances. 
-# Only for educational purposes!
-###########
-
-
+ ____  _____  _____  __  __    __    _  _  _  _  __    _____  ___ 
+(_  _)(  _  )(  _  )(  \/  )  /__\  ( \( )( \/ )(  )  (  _  )/ __)
+  )(   )(_)(  )(_)(  )    (  /(__)\  )  (  \  /  )(__  )(_)(( (_-.
+ (__) (_____)(_____)(_/\/\_)(__)(__)(_)\_) (__) (____)(_____)\___/
+                               -=-
+                            (\  _  /)
+                            ( \( )/ )
+                            (       )
+                             `>   <'
+                             /     \
+                             `-._.-'
 EOF
 }
 
