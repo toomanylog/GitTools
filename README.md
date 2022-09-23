@@ -18,14 +18,17 @@ It checks if the ```.git/HEAD``` file contains ```refs/heads```.
 ```
 $ ./gitfinder.py -h
 
-###########
-# Finder is part of https://github.com/internetwache/GitTools
-#
-# Developed and maintained by @gehaxelt from @internetwache
-#
-# Use at your own risk. Usage might be illegal in certain circumstances.
-# Only for educational purposes!
-###########
+ ____  _____  _____  __  __    __    _  _  _  _  __    _____  ___ 
+(_  _)(  _  )(  _  )(  \/  )  /__\  ( \( )( \/ )(  )  (  _  )/ __)
+  )(   )(_)(  )(_)(  )    (  /(__)\  )  (  \  /  )(__  )(_)(( (_-.
+ (__) (_____)(_____)(_/\/\_)(__)(__)(_)\_) (__) (____)(_____)\___/
+                               -=-
+                            (\  _  /)
+                            ( \( )/ )
+                            (       )
+                             `>   <'
+                             /     \
+                             `-._.-'
 
 usage: gitfinder.py [-h] [-i INPUTFILE] [-o OUTPUTFILE] [-t THREADS]
 
@@ -88,13 +91,6 @@ where
 - ```/tmp/mygitrepodump``` is the destination directory
 
 This can be used in combination with the ```Git Dumper``` in case the downloaded repository is incomplete.
-
-
-## Demo
-
-Here's a small demo of the **Dumper** tool:
-
-[![asciicast](https://asciinema.org/a/24072.png)](https://asciinema.org/a/24072)
 
 ## Proxy support
 
